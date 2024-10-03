@@ -1,0 +1,1 @@
+return `${hour} hour ${minute} minute ${remainingSecond} second ago`;
