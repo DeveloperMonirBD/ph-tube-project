@@ -1,0 +1,16 @@
+{
+    "name": "ph-tube-project",
+    "version": "1.0.0",
+    "description": "<p align=\"center\">\r <img src=\"Logo.png\"  />\r </p>\r <p align=\"center\" style=\"font-size: 24px;\">\r   PH Tube is a web-based video streaming application where users can browse and watch videos sorted by categories such as music, comedy, and tutorials.\r </p>",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "daisyui": "^4.12.11",
+        "tailwindcss": "^3.4.13"
+    }
+}
